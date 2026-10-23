@@ -1,0 +1,85 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Model weights & large binaries
+*.pt
+*.onnx
+*.engine
+*.bin
+models/*.pt
+backend/models/*.pt
+backend/*.pt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+ecovision.db
+backend/ecovision.db
+
+# User uploads & runtime generated files
+uploads/
+backend/uploads/*
+!backend/uploads/.gitkeep
+runs/
+gh_bin/
+gh.zip
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+logs/
+
+# IDE & OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
